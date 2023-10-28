@@ -10,9 +10,9 @@ import os
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-#import os
+import os
 
-#os.environ['PATH'] += r"C:/Users/Malavika/PycharmProjects/WebScraping/Selenium"
+os.environ['PATH'] += r"C:\Users\Malavika\PycharmProjects\Selenium"
 driver = webdriver.Chrome()
 driver.get('https://demo.seleniumeasy.com/generate-file-to-download-demo.html')
 driver.implicitly_wait(8)
