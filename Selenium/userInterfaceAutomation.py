@@ -27,5 +27,6 @@ text_input.send_keys("Your text goes here")
 generate_file = driver.find_element(By.ID, 'create')
 generate_file.click()
 
+
 download_file = driver.find_element(By.ID, 'link-to-download')
 download_file.click()
